@@ -1,0 +1,17 @@
+{
+    "name": "Toxin_X",
+    "short_name": "Toxin_X",
+    "theme_color": "#ffcbe4",
+    "background_color": "#fa99ca",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "https://toxin-x.github.io/superurl-webapp/",
+    "description": "toxin-x",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "https://toxinx.com/static/img/avatar.png",
+            "sizes": "1024x1024"
+        }
+    ]
+}
