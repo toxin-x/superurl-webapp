@@ -5,16 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="manifest" href="./manifest.json">
+    <script src="./cleanURL.js"></script>
 </head>
 <body>
 <div id="output"></div>
-<script>
-  // Get the current URL
-  const url = new URL(window.location);
+<button onclick="clean()">click!</button>
 
-  // Create a URLSearchParams object from the query string
-  const queryParams = new URLSearchParams(url.search);
-  document.getElementById("output").innerHTML = queryParams;
+<script>
 </script>
 </body>
 
